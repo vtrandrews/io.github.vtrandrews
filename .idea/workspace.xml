@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae4f327-8113-4793-9512-14b48f5150ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/domain/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/domain/entity/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/domain/entity/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/domain/entity/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/domain/repositorio/Clientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/vtrandrews/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/vtrandrews/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/vtrandrews/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/vtrandrews/VendasApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/vtrandrews/model/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/vtrandrews/repository/ClientesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/vtrandrews/service/ClientesService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="28zBUIeSTbnEl1kMAs7SOvtJGf2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -88,10 +92,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1652741150569" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1652453212849">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1652747455539">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1652453212849" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1652747455539" />
     <state x="582" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1652453067895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -100,29 +104,33 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="586" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1652742266743" />
-    <state width="1877" height="140" key="GridCell.Tab.0.bottom" timestamp="1652742918117">
+    <state width="1877" height="123" key="GridCell.Tab.0.bottom" timestamp="1652752583732">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1652742918117" />
-    <state width="1877" height="140" key="GridCell.Tab.0.center" timestamp="1652742918116">
+    <state width="1877" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1652752583732" />
+    <state width="1877" height="123" key="GridCell.Tab.0.center" timestamp="1652752583732">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="140" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1652742918116" />
-    <state width="1877" height="140" key="GridCell.Tab.0.left" timestamp="1652742918116">
+    <state width="1877" height="123" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1652752583732" />
+    <state width="1877" height="123" key="GridCell.Tab.0.left" timestamp="1652752583732">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="140" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1652742918116" />
-    <state width="1877" height="140" key="GridCell.Tab.0.right" timestamp="1652742918117">
+    <state width="1877" height="123" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1652752583732" />
+    <state width="1877" height="123" key="GridCell.Tab.0.right" timestamp="1652752583732">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="140" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1652742918117" />
+    <state width="1877" height="123" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1652752583732" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1652742440942">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1652742440942" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1652742453752">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1652743029932">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1652742453752" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1652743029932" />
+    <state x="690" y="280" key="extract.method.dialog" timestamp="1652748575453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="280" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1652748575453" />
   </component>
 </project>
